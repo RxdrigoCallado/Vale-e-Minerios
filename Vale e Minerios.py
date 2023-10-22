@@ -66,7 +66,7 @@ entry_dias = tk.Entry(numero_dias_frame)
 entry_dias.pack()
 
 # Button to obtain variations with the number of days
-button_dias = tk.Button(numero_dias_frame, text="Obter com Número de Dias", command=lambda: obter_variacoes_com_dias(int(entry_dias.get())))
+button_dias = tk.Button(numero_dias_frame, text="Obter Variações", command=lambda: obter_variacoes_com_dias(int(entry_dias.get())))
 button_dias.pack()
 
 # Entry fields for "Datas Específicas"
